@@ -1,6 +1,5 @@
 def is_unique(s):
     seen = list()
-    final_string = ""
 
     for char in s:
         if char not in seen:
